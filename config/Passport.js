@@ -1,6 +1,4 @@
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const FacebookStrategy = require('passport-facebook').Strategy;
-const TwitterStrategy = require('passport-twitter').Strategy;
 const GitHubStrategy = require('passport-github2').Strategy;
 const User = require('../models/User');
 
